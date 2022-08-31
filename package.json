@@ -1,0 +1,14 @@
+{
+	"name": "user-auth",
+	"version": "1.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "ts-node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts & next dev"
+	},
+	"devDependencies": {
+		"lerna": "^5.4.3"
+	},
+	"workspaces": [
+		"packages/*"
+	]
+}
